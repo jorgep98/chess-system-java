@@ -27,7 +27,7 @@ public class Board {
 		return columns;
 	}
 	
-	public Piece piece (int columns, int rows) {
+	public Piece piece (int rows, int columns) {
 	
 		return pieces[rows][columns];
 		
